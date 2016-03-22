@@ -22,4 +22,4 @@ def getFastestChangingPrices(oldstockprices,newstockprices):
 			pdiff[sym] = 0;
 	  
 	pdiff = sorted(pdiff.items(), key=operator.itemgetter(1), reverse=True)
-	return pdiff[:4]
+	return pdiff[:5]
